@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    background-image: url('/Images/images (110).jpeg');
+}
+
+.header {
+    color: rgb(24, 11, 36);
+    font-size: 50px;
+    border: none;
+}
+
+.body {
+    background-image: url('/Images/images (110).jpeg');
+}
+
+.header:hover {
+    background-image: url('/Images/images (15).jpeg');
+    background-position: center;
+}
+
+.top {
+    color: rgb(40, 8, 131);
+    text-decoration: underline #fff;
+    text-decoration: solid;
+    font-weight: 800;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.question {
+    border: 1px solid pink;
+    padding: 1rem;
+}
+
+.options {
+    margin-block: 1rem;
+}
+
+.option-item {
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.option-item input {
+    display: none;
+}
+
+.option-item label {
+    display: block;
+    padding: .5rem;
+}
+
+.option-item input:checked + label {
+    background-color: blueviolet;
+}
+
+.hide {
+    display: none;
+}
+
+.option-item__review {
+    padding: .5rem;
+    color: white;
+    margin-bottom: 1px;
+}
